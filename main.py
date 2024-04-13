@@ -1,8 +1,7 @@
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.formrecognizer import DocumentAnalysisClient
 # Replace with your endpoint and key
-endpoint = "https://general-testing.cognitiveservices.azure.com/"
-key = "7754efb6e0d04074a2664c54df1eb822"
+
 
 # Set the document model to be used for analysis
 model = "prebuilt-read"  # You can choose a different model if needed
